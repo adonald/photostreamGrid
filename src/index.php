@@ -21,10 +21,10 @@ include_once(__ROOT__.'/photos.php');
     <meta name="author" content="Alex Donald">
 
     <!-- Include CSS -->
-    <link href="/css/styles.min.css" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-        <script src="/js/respond.min.js"></script>
+        <script src="js/respond.min.js"></script>
     <![endif]-->
 
 </head>
@@ -37,7 +37,7 @@ include_once(__ROOT__.'/photos.php');
     <?php echo $photosHTML; ?>
 
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="/js/scripts.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 
 </body>
 </html>
